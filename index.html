@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Template Practice</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<div class="header">
+	<div class="pageTitle">
+		<span id="the">THE</span><br> 
+		<span id="big">BIG</span><br> 
+		<span id="andthe">and the</span><br>
+		<span id="small">&middot; small &middot;</span>
+
+		<div class="subhead">find the schools with the smallest and largest undergraduate population</div>
+	</div>
+	</div>
+
+		<div class="buttons">
+			<div class="most">LARGEST</div>
+			<div class="least">smallest</div>
+			<div class="seeAll">See All</div>
+		</div>
+
+	<div class="aftert"></div>
+	<div id="canvas"></div>
+
+	<script src="js/tp/jquery-1.11.2.min.js"></script>
+	<script src="js/tp/underscore.min.js"></script>
+	<script src="js/tp/d3.v3.min.js"></script>
+
+<!-- TEMPLATE -->
+	<script id="template" type="text/jst">
+
+		<div class="results-wrapper">
+			<div class="schoolName">
+				<%= uppercased(School) %>
+			</div>
+			<div class="underPop">
+				<span class="label">Total Undergrad Population: </span> 
+				<%= commaSeparateNumber(UndergradPop) %>
+			</div>
+		</div>
+		<div class="aftert"></div>
+	</script>
+<!-- END TEMPLATE -->
+
+	<script src="js/main.js"></script>
+</body>
+</html>

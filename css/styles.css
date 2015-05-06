@@ -1,0 +1,107 @@
+.header{
+	text-align: center;
+	font-family: 'Amatic SC';
+}
+
+#the{
+	font-size: 50px;
+	line-height: 45px;
+	letter-spacing: 20px;
+}
+
+#big{
+	font-size: 275px;
+	line-height: 230px;
+}
+
+#andthe{
+	font-size: 45px;
+	line-height: 45px;
+	letter-spacing: 10px;
+}
+
+#small{
+	font-size: 25px;
+}
+
+.subhead{
+	font-size: 14px;
+	font-family: 'Lato';
+	padding-top: 10px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#buttonIntro {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.buttons {
+	margin-top: 20px;
+	font-family: 'Lato';
+	width: auto;
+	display: inline-block;
+	float: left;
+	margin-left: 325px;
+}
+
+#canvas{
+	width: 400px;
+	height: 100%;
+	display: inline-block;
+	float: right;
+	margin-right: 200px;
+}
+
+.most, .least, .seeAll {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	border-radius: 16px;
+	text-align: center;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.most:hover, .least:hover, .seeAll:hover {
+	background-color: gray;
+}
+
+.most{
+	font-size: 30px;
+	line-height: 38px;
+	width: 150px;
+	margin: 10px auto;
+}
+
+.least{
+	line-height: 20px;
+	width: 80px;
+	margin: 10px auto;
+}
+
+.seeAll{
+	width: 75px;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.results-wrapper {
+	width: 350px;
+	margin: 20px auto;
+	background-color: #7F3E47;
+	border-radius: 10px;
+	font-family: 'Lato';
+	padding: 16px;
+	box-shadow: 5px 5px 5px #888888;
+	color: white;
+}
+
+.schoolName, .underPop {
+	text-align: center;
+}
+
+.active, .active:hover{
+	background-color: #7F3E47;
+	box-shadow: 1px 1px 5px #888888;
+}
